@@ -1,0 +1,29 @@
+{
+	"name": "Node Cli Weibo",
+	"main": "./index.js",
+	"version": "0.0.1-pre",
+	"keywords": ["weibo", "微博"],
+	"description": "cli weibo base on node",
+	"author": "q3boy <q3boy1@gmail.com>",
+	"contributors": [],
+	"repository": {
+		"type" : "git",
+		"url" : "git://github.com/q3boy/node-cli-weibo.git"
+	},
+	"homepage": "http://github.com/q3boy/node-cli-weibo",
+	"directories": {
+		"lib": "./lib",
+		"bin": "./bin",
+		"doc": "./doc"
+	},
+	"dependencies": {
+		"optimist": ">=0.2.3"
+	},
+	"devDependencies": {
+		"jake": ">=0.1.12",
+		"nodeunit": ">=0.5.1",
+		"nodemon": ">=0.5.0"
+	},
+	"engines": [ "node >=0.5.0" ],
+	"license": "BSD"
+}

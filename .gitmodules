@@ -1,0 +1,3 @@
+[submodule "lib/node-weibo"]
+	path = lib/node-weibo
+	url = git://github.com/fengmk2/node-weibo.git
